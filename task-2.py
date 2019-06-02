@@ -8,7 +8,7 @@ result = 0
 if 0 < a and b and c and e <1011:
     sum1 = a * c
     sum2 = b * e
-    result = sum1 + sum2
+    result = (sum1 + sum2)/1.95
     print("{0:.5f}".format(result))
 else:
     print('Невалидна стойност')
