@@ -6,10 +6,10 @@ o = float(input())   # дължина на пейката
 
 lice_square = n**2
 lice_peika = m * o
-sum_plo6a = lice_square-lice_peika
-lice_plochki = w*l
-broi_plochki = sum_plo6a/lice_plochki
-time = broi_plochki*0.2
+area_with_tiles = lice_square-lice_peika
+area_tiles = w*l
+area_count = area_with_tiles/area_tiles
+time = area_count*0.2
 
-print(broi_plochki)
+print(area_count)
 print(time)
